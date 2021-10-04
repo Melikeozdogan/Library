@@ -27,5 +27,5 @@ while hak>0:
 
 if hak == 0:
     print(f'Hakkınız bitti tahmin:{sayı}')
-    print("Tekrar denemek için ekrana 'py uygulama.py' yazınız")        
+          
 
