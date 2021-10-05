@@ -17,7 +17,7 @@ while hak>0:
     tahmin=int(input('Tahmininizi giriniz: '))
 
     if sayı == tahmin:
-        print(f'Tebrikler {nickname} {sayaç}. defada bildiniz.Toplam puanınız: {100 - (100/a) * {sayaç -1}}')
+        print(f'Tebrikler {nickname} {sayaç}. defada bildiniz.Toplam puanınız: {100 - (100/a) * (sayaç -1)}')
         break
     elif sayı>tahmin:
         print("yukarı")
