@@ -1,0 +1,17 @@
+def fibonacci(number):
+    number1=0
+    number2=1
+    print(number1)
+    print(number2)
+    i=0
+    while (i<number-2):
+        number3=number1+number2
+        print(number3)
+        number1=number2
+        number2=number3
+        i += 1
+
+
+
+number=int(input("Enter the Fibonacci length: "))
+fibonacci(number)
